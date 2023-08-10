@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30A4E5F2-59F4-4918-B9BC-F5FE9FBBCBFE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>First_Apps</RootNamespace>
+    <AssemblyName>First Apps</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\ClassLibrary1\bin\Debug\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abstract_Interface.Designer.cs">
+      <DependentUpon>Abstract_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent1.Designer.cs">
+      <DependentUpon>AddStudent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTwoNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTwoNum.Designer.cs">
+      <DependentUpon>AddTwoNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AForm.cs" />
+    <Compile Include="BForm.cs" />
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D.cs" />
+    <Compile Include="DllStudent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DllStudent1.Designer.cs">
+      <DependentUpon>DllStudent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DllStudent2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DllStudent2.Designer.cs">
+      <DependentUpon>DllStudent2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInheritance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInheritance.Designer.cs">
+      <DependentUpon>FormInheritance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FullName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullName.Designer.cs">
+      <DependentUpon>FullName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FullName2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullName2.Designer.cs">
+      <DependentUpon>FullName2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FullNameHelper.cs" />
+    <Compile Include="HA.cs" />
+    <Compile Include="HB.cs" />
+    <Compile Include="HC.cs" />
+    <Compile Include="I.cs" />
+    <Compile Include="IA.cs" />
+    <Compile Include="IB.cs" />
+    <Compile Include="InheritanceA.cs" />
+    <Compile Include="InheritanceB.cs" />
+    <Compile Include="InheritanceC.cs" />
+    <Compile Include="InheritanceStudent.cs" />
+    <Compile Include="Mark.cs" />
+    <Compile Include="Masterform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masterform.Designer.cs">
+      <DependentUpon>Masterform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newcalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newcalculator.Designer.cs">
+      <DependentUpon>Newcalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetails.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Student1.cs" />
+    <EmbeddedResource Include="Abstract_Interface.resx">
+      <DependentUpon>Abstract_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent1.resx">
+      <DependentUpon>AddStudent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTwoNum.resx">
+      <DependentUpon>AddTwoNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DllStudent1.resx">
+      <DependentUpon>DllStudent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DllStudent2.resx">
+      <DependentUpon>DllStudent2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInheritance.resx">
+      <DependentUpon>FormInheritance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullName.resx">
+      <DependentUpon>FullName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullName2.resx">
+      <DependentUpon>FullName2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masterform.resx">
+      <DependentUpon>Masterform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Newcalculator.resx">
+      <DependentUpon>Newcalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

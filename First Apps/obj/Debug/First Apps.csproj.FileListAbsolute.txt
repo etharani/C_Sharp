@@ -1,0 +1,27 @@
+D:\Yalid\First Apps\First Apps\bin\Debug\First Apps.exe.config
+D:\Yalid\First Apps\First Apps\bin\Debug\First Apps.exe
+D:\Yalid\First Apps\First Apps\bin\Debug\First Apps.pdb
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.csproj.AssemblyReference.cache
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.csproj.SuggestedBindingRedirects.cache
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Firstform.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Properties.Resources.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.csproj.GenerateResource.cache
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.csproj.CoreCompileInputs.cache
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.exe
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.pdb
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Calculator.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Masterform.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Newcalculator.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.AddStudent.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.AddStudent1.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.AddTwoNum.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.FullName.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.FullName2.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Product.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.FormInheritance.resources
+D:\Yalid\First Apps\First Apps\bin\Debug\ClassLibrary1.dll
+D:\Yalid\First Apps\First Apps\bin\Debug\ClassLibrary1.pdb
+D:\Yalid\First Apps\First Apps\obj\Debug\First Apps.csproj.CopyComplete
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.DllStudent1.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.DllStudent2.resources
+D:\Yalid\First Apps\First Apps\obj\Debug\First_Apps.Abstract_Interface.resources
